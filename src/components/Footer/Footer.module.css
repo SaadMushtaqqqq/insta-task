@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  padding: 16px 0;
+  text-align: center;
+  border-top: 1px solid #efefef;
+  background-color: #ffffff;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 8px;
+  font-size: 11px;
+  color: #737373;
+  padding: 0 16px;
+}
+
+.link {
+  color: #737373;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
